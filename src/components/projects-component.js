@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import getProjects from '../../data/projectsData';
+import dataGetter from './helpers/dataGetter';
 
 const writeProjects = (projects) => {
   let domString = '';
@@ -15,14 +15,15 @@ const writeProjects = (projects) => {
   $('#projects').html(domString);
 };
 
-const loadProject = () => {
-  getProjects()
+
+const getAndPrintProjects = () => {
+  dataGetter.getAllProjectsFromDb()
     .then((data) => {
-      writeProjects(data.data);
+      writeProjects(data);
     })
     .catch((error) => {
-      console.error({ error });
+      console.error('Error getting projects', error);
     });
 };
 
-export default loadProject;
+export default getAndPrintProjects;

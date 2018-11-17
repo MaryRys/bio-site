@@ -1,13 +1,15 @@
-import $ from 'jquery';
+import firebase from 'firebase/app';
 import 'bootstrap';
 import './index.scss';
 
-import loadProject from './javascripts/components/projects-component';
-
-$('#test').show();
+import apiKeys from '../db/apiKeys.json';
+import getAndPrintProjects from './components/projects-component';
+import createNavbar from './components/Navbar/navbar';
 
 const initializeApp = () => {
-  loadProject();
+  firebase.initializeApp(apiKeys.firebaseKeys);
+  createNavbar();
+  getAndPrintProjects();
 };
 
 initializeApp();
