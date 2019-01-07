@@ -3,6 +3,7 @@ import dataGetter from './helpers/dataGetter';
 
 const writeProjects = (projects) => {
   let domString = '';
+  domString += '<h3>Projects</h3>';
   projects.forEach((project) => {
     domString += `
       <div class="card" style="width: 18rem;">
