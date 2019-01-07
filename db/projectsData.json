@@ -1,18 +1,18 @@
 {
   "projects": {
     "project1": {
-      "title": "Cool Project", 
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
+      "title": "Developer ++", 
+      "screenshot": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80", 
       "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "technologiesUsed": "HTML, CSS, React, JQuery, Bootstrap 4, Version Control with Github",
       "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://developerplusplus-ee612.firebaseapp.com",
+      "githubUrl": "https://github.com/MaryRys/DeveloperPlusPluss"
     },
   
     "project2": {  
       "title": "Cool Project", 
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
+      "screenshot": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80", 
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
@@ -22,20 +22,11 @@
 
     "project3": {
       "title": "Cool Project", 
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
+      "screenshot": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80", 
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
-    },
-    "project4": { 
-      "title": "Cool Project", 
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
       "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
     }
   }
