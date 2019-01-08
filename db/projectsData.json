@@ -2,8 +2,8 @@
   "projects": {
     "project1": {
       "title": "Developer ++", 
-      "screenshot": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80", 
-      "description": "This is the best project",
+      "screenshot": "https://github.com/MaryRys/DeveloperPlusPluss/blob/master/public/images/img1.png?raw=true", 
+      "description": "Developer ++ is an application that lets developers track resources and tutorials that may help them on their journey",
       "technologiesUsed": "HTML, CSS, React, JQuery, Bootstrap 4, Version Control with Github",
       "available": true,
       "url": "https://developerplusplus-ee612.firebaseapp.com",
@@ -11,13 +11,13 @@
     },
   
     "project2": {  
-      "title": "Cool Project", 
-      "screenshot": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80", 
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "title": "Nutshell", 
+      "screenshot": "https://github.com/nss-evening-cohort-8/nutshell-pecans/blob/master/src/images/ss5.png?raw=true", 
+      "description": "Nutshell is a home page that gives a user a quick dashboard for events, news, articles and weather.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Jquery, Bootstrap4, Version Control with Github, Weatherbit API",
       "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+      "url": "https://nutshell-59c31.firebaseapp.com/",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-pecans"
     },
 
     "project3": {

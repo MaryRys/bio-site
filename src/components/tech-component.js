@@ -2,6 +2,7 @@ import $ from 'jquery';
 
 const writeTechs = () => {
   const domString = `
+  <h6>Technologies</h6>
   <div>
   <i class="fab fa-js-square"></i>
   <i class="fab fa-html5"></i>
@@ -10,7 +11,7 @@ const writeTechs = () => {
   <i class="fab fa-github"></i>
   <i class="fab fa-react"></i>
   `;
-  $('.skills').html(domString);
+  $('#skills').html(domString);
 };
 
 export default writeTechs;

@@ -7,6 +7,7 @@ import getAndPrintProjects from './components/projects-component';
 import createNavbar from './components/Navbar/navbar';
 import writeBio from './components/bio-component';
 import writeTechs from './components/tech-component';
+import writeContacts from './components/Contacts/Contacts';
 
 const initializeApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
@@ -14,6 +15,7 @@ const initializeApp = () => {
   getAndPrintProjects();
   writeBio();
   writeTechs();
+  writeContacts();
 };
 
 initializeApp();

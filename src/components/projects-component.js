@@ -6,7 +6,7 @@ const writeProjects = (projects) => {
   domString += '<h3>Projects</h3>';
   projects.forEach((project) => {
     domString += `
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 30rem;">
         <img class="card-img-top" src="${project.screenshot}" alt="screenshot">
         <div class="card-body">
           <p class="card-text">${project.title}</p>
