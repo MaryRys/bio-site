@@ -2,14 +2,14 @@ import $ from 'jquery';
 
 const writeTechs = () => {
   const domString = `
-  <h6>Technologies</h6>
+  <h4>Technologies</h4>
   <div>
-  <i class="fab fa-js-square"></i>
-  <i class="fab fa-html5"></i>
-  <i class="fab fa-css3-alt"></i>
-  <i class="fab fa-sass"></i>
-  <i class="fab fa-github"></i>
-  <i class="fab fa-react"></i>
+  <i class="fab fa-js-square fa-7x"></i>
+  <i class="fab fa-html5 fa-7x"></i>
+  <i class="fab fa-css3-alt fa-7x"></i>
+  <i class="fab fa-sass fa-7x"></i>
+  <i class="fab fa-github fa-7x"></i>
+  <i class="fab fa-react fa-7x"></i>
   `;
   $('#skills').html(domString);
 };

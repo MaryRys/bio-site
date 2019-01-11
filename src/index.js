@@ -11,7 +11,8 @@ import writeContacts from './components/Contacts/Contacts';
 
 const initializeApp = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
-  createNavbar();
+  createNavbar.createNavbar();
+  createNavbar.navbarEvents();
   getAndPrintProjects();
   writeBio();
   writeTechs();
