@@ -3,9 +3,11 @@ import dataGetter from './helpers/dataGetter';
 
 const writeProjects = (projects) => {
   let domString = '';
-  domString += '<h3>Projects</h3>';
+  domString += '<h3 class="subheader">Projects</h3>';
   projects.forEach((project) => {
     domString += `
+    <div class="container">
+      <div class="row">
       <div class="card" style="width: 30rem;">
         <img class="card-img-top" src="${project.screenshot}" alt="screenshot">
         <div class="card-body">
@@ -14,7 +16,9 @@ const writeProjects = (projects) => {
           <p class="technologies">${project.technologiesUsed}
           <a href="${project.url}">View Website</a>
         </div>
-      </div>`;
+      </div>
+    </div>
+    </div>`;
   });
   $('#projects').html(domString);
 };

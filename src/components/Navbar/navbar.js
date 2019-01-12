@@ -33,7 +33,7 @@ const navbarEvents = () => {
     const targetHref = $(this).attr('href');
     $('html, body').animate({
       scrollTop: $(targetHref).offset().top,
-    }, 1000);
+    }, 2000);
     e.preventDefault();
   });
 };

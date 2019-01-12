@@ -3,7 +3,7 @@ import $ from 'jquery';
 const writeTechs = () => {
   const domString = `
   <h4>Technologies</h4>
-  <div>
+  <div id="technologies">
   <i class="fab fa-js-square fa-7x"></i>
   <i class="fab fa-html5 fa-7x"></i>
   <i class="fab fa-css3-alt fa-7x"></i>
